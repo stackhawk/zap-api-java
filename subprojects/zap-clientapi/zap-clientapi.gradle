@@ -18,8 +18,8 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'OWASP ZAP API Client',
-        'Implementation-Version': version,
+        attributes 'Implementation-Title': 'OWASP ZAP API Client for StackHawk Talon',
+        'Implementation-Version': 'STACKHAWK-TALON-1.0.0',
         'Main-Class': 'org.zaproxy.clientapi.core.ClientApiMain',
         'Create-Date': new Date().format("yyyy-MM-dd")
     }
@@ -99,7 +99,7 @@ publishing {
 
             artifact sourcesJar
             artifact javadocJar
-            
+
             pom {
                 name = 'OWASP ZAP API Client'
                 description = 'Java implementation to access OWASP ZAP API.'

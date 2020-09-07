@@ -9,8 +9,8 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'OWASP ZAP Ant API Client',
-        'Implementation-Version': version,
+        attributes 'Implementation-Title': 'OWASP ZAP Ant API Client StackHawk Talon',
+        'Implementation-Version': 'STACKHAWK-TALON-1.0.0',
         'Create-Date': new Date().format("yyyy-MM-dd")
     }
 }
